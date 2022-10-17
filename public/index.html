@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voting Machine</title>
+    <link rel="icon" type="image/png" href="./vote.png">
+    <link rel="stylesheet" href="./main.css">
+    <!-- CONFETTI  -->
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js" defer></script>
+    <script src="./confetti.js" defer></script>
+    <!-- CHART JS  -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js" defer></script>
+    <script src="./main.js" defer></script>
+</head>
+<body>
+    <header class="flex">
+        <h1>Best Config Management Platform</h1>
+    </header>
+    <div class="container flex">
+        <div class="connected"></div>
+        <canvas id="myChart" width="400" height="350"></canvas>
+        <div class="buttons">
+            <button data-index="0">Salt Stack</button>
+            <button data-index="1">Puppet</button>
+            <button data-index="2">Ansible</button>
+            <button data-index="3">Chef</button>
+        </div>
+    </div>
+</body>
+</html>
